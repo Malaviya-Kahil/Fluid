@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+.pageOne{
+
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+background-color: black;
+position: relative;
+}
+.home,.project,.about,.contact{
+    width: 20%;
+height: 100vh;
+position: relative;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+perspective: 1000px;
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.7;
+   
+}
+
+.homeImg,.aboutImg,.projectImg,.contactImg{
+    position: absolute;
+    height: 45%;
+    width: 90%;
+    border-radius: 15px;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+   rotateZ(-10deg)
+   rotateY(0deg);
+   background-color: black;
+    z-index: 0;
+    overflow: hidden;
+    transition: all 0.3s ease-out;
+}
+
+.home:hover .homeImg,.about:hover .aboutImg,.project:hover .projectImg,.contact:hover .contactImg{
+    opacity: 1;
+    transform: translate(-50%,-50%)
+    rotateZ(-10deg)
+    rotateY(20deg);
+   
+}
+.home:hover h2,.about:hover h2,.project:hover h2,.contact:hover h2{
+    font-size: 6vw;
+    
+  
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+ 
+}
+
+h2{
+ 
+   font-size: 2vw;
+   letter-spacing: 2px;
+   text-align: center;
+ z-index: 50;
+
+   transition: all 0.3s ease-out;
+   font-family: "Josefin Sans", sans-serif;
+   text-transform: uppercase;
+   text-wrap: nowrap;
+}
