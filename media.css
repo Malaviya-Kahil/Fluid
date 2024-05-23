@@ -1,54 +1,91 @@
 @media (max-width:992px) {
-    .homeImg,.aboutImg,.projectImg,.contactImg{
-       
+
+    .homeImg,
+    .aboutImg,
+    .projectImg,
+    .contactImg {
+
         height: 40%;
     }
 }
+
 @media (max-width:768px) {
-    .homeImg,.aboutImg,.projectImg,.contactImg{
-       
+
+    .homeImg,
+    .aboutImg,
+    .projectImg,
+    .contactImg {
+
         height: 30%;
     }
 }
+
 @media (max-width:576px) {
-    .pageOne{
-        margin: 80px 0;
+    .pageOne {
+        margin: 80px 0 120px;
     }
-    .homeImg,.aboutImg,.projectImg,.contactImg{
-       width: 40%;
+
+    .homeImg,
+    .aboutImg,
+    .projectImg,
+    .contactImg {
+        width: 40%;
         height: 100%;
     }
-    .home,.project,.about,.contact{
-        width: 100%;
-    height: 40vh;}
 
-    .home:hover h2,.about:hover h2,.project:hover h2,.contact:hover h2{
-        font-size: 15vw;
-        
-      
+    .home,
+    .project,
+    .about,
+    .contact {
+        width: 100%;
+        height: 40vh;
     }
-    h2{
-        font-size: 7vw; 
+
+    .home:hover h2,
+    .about:hover h2,
+    .project:hover h2,
+    .contact:hover h2 {
+        font-size: 15vw;
+
+
+    }
+
+    h2 {
+        font-size: 7vw;
     }
 }
+
 @media (max-width:456px) {
-    .pageOne{
-        margin: 80px 0;
+    .pageOne {
+        margin: 80px 0 120px;
     }
-    .homeImg,.aboutImg,.projectImg,.contactImg{
-       width: 50%;
+
+    .homeImg,
+    .aboutImg,
+    .projectImg,
+    .contactImg {
+        width: 50%;
         height: 100%;
     }
-    .home,.project,.about,.contact{
-        width: 100%;
-    height: 40vh;}
 
-    .home:hover h2,.about:hover h2,.project:hover h2,.contact:hover h2{
-        font-size: 15vw;
-        
-      
+    .home,
+    .project,
+    .about,
+    .contact {
+        width: 100%;
+        height: 40vh;
     }
-    h2{
-        font-size: 7vw; 
+
+    .home:hover h2,
+    .about:hover h2,
+    .project:hover h2,
+    .contact:hover h2 {
+        font-size: 15vw;
+
+
+    }
+
+    h2 {
+        font-size: 7vw;
     }
 }
