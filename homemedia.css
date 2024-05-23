@@ -1,0 +1,319 @@
+@media (max-width:992px) {
+    .pageThree {
+        height: 80vh;
+    }
+    
+    .pageFive {
+        height: 80vh;
+    }
+    .pageFiveInnerRow img{
+        height: 80px;
+        width: 80px;}
+}
+
+@media (max-width:768px) {
+
+    .imageSupportDiv {
+        height: 80%;
+        width: 30%;
+
+    }
+
+    .imageDiv {
+        height: 80%;
+        width: 50%;
+    }
+
+    .pageOne {
+        height: 90vh;
+    }
+
+    /* pagetwo */
+
+    .pageTwo {
+        height: 120vh;
+    }
+
+    .pageTwoTextDiv {
+        height: 50%;
+
+        width: 100%;
+    }
+
+    .pageTwoImgDiv {
+        height: 50%;
+        width: 60%;
+
+    }
+
+    .pageTwoTextDiv h3 {
+        font-size: 9vw;
+        text-align: center;
+
+    }
+
+    .pageTwoTextDiv h3 span {
+        font-size: 9vw;
+      
+    }
+
+    .pageTwoTextDiv p {
+        font-size: 2vw;
+    }
+
+    /* page three */
+    .headingThreeDiv h3 span {
+        font-size: 9vw;
+    }
+
+    .headingThreeDiv h3 {
+        font-size: 9vw;
+    }
+
+    .pageThree {
+       
+        height: 120vh;
+    }
+
+    .benefitRowDiss {
+        display: flex;
+    }
+
+    .headingThreeDiv {
+        height: 10%;
+    }
+
+    .benefitRowOne,
+    .benefitRowTwo,
+    .benefitRowDiss {
+        height: 30%;
+    }
+
+    .mrIndia {
+        display: none;
+    }
+
+    .benefitRowOne .b1,
+    .benefitRowOne .b2,
+    .benefitRowOne .b3,
+    .benefitRowTwo .b1,
+    .benefitRowTwo .b2,
+    .benefitRowTwo .b3,
+    .benefitRowDiss .b1,
+    .benefitRowDiss .b2 {
+
+        height: 100%;
+        width: 40%;
+    }
+
+    .benefitRowOne span,
+    .benefitRowTwo span,
+    .benefitRowDiss span {
+        font-size: 9vw;
+    }
+
+    .benefitRowOne p,
+    .benefitRowTwo p,
+    .benefitRowDiss p {
+        font-size: 1.5vw;
+    }
+
+    /* page four */
+
+   
+    .headingFourDiv h3 {
+   
+        font-size: 9vw;
+    
+    }
+    
+    .headingFourDiv h3 span {
+        font-size: 9vw;}
+
+
+        .pageFour {
+            height: 150vh;
+        }
+
+        /* page five */
+
+        .headingFiveDiv h3 {
+   
+            font-size: 9vw;
+        
+        }
+        
+        .headingFiveDiv h3 span {
+            font-size: 9vw;}
+
+            .pageFiveInnerRow h4 {
+   
+                font-size: 4.5vw;}
+
+        .pageFive {
+            height: 60vh;
+        }
+        .pageFiveInnerRow img{
+            height: 80px;
+            width: 80px;}
+
+            /* page six */
+           
+
+}
+
+@media (max-width:576px) {
+    .imageDiv {
+        height: 80%;
+        width: 60%;
+    }
+
+    .imageSupportDiv {
+        height: 80%;
+        width: 20%;
+
+    }
+
+    .panel p {
+        font-size: 25px;
+    }
+
+    /* page two */
+
+    .pageTwo {
+        height: 120vh;
+    }
+
+    .pageTwoTextDiv {
+        height: 50%;
+
+        width: 100%;
+    }
+
+    .pageTwoImgDiv {
+        height: 50%;
+        width: 60%;
+
+    }
+
+    /* page three */
+
+    .pageThree {
+    
+        height: 100vh;
+    }
+
+    /* page four */
+
+    .pageFour {
+        height: 300vh;
+        margin-bottom: 50px;
+    }
+    .headingFourDiv {
+        width: 100%;
+        height: 8%;
+        padding: 30px 0;
+    }
+
+    .imgOneDiv,.imgTwoDiv{
+        height: 50%;
+        width: 80%;}
+
+    .imgThreeDiv,.imgFourDiv{
+        height: 50%;
+        width: 80%;}
+.imgOneDiv h4,.imgTwoDiv h4,.imgThreeDiv h4,.imgFourDiv h4{
+
+    font-size: 11vw;}
+
+    /* page five */
+    .pageFive {
+        height: 50vh;
+    }
+    .pageFiveInnerRow img{
+        height: 50px;
+        width: 50px;}
+
+          /* page six */
+          .pageSix {
+            height: 60vh;
+        }
+}
+
+@media (max-width:456px) {
+    span{
+        -webkit-text-stroke: 1px white !important;
+    }
+    .panel img{
+        height: 30px;
+        width: 30px;
+    }
+    .imageDiv {
+        height: 80%;
+        width: 80%;
+    }
+
+    .imageSupportDiv {
+        height: 80%;
+        width: 0%;
+
+    }
+
+    .panel p {
+        font-size: 20px;
+    }
+
+    /* page two */
+
+    .pageTwo {
+        height: 120vh;
+    }
+
+    .pageTwoTextDiv {
+        height: 50%;
+
+        width: 100%;
+    }
+
+    .pageTwoImgDiv {
+        height: 50%;
+        width: 80%;
+
+    }
+
+    .pageTwoTextDiv h3 {
+        font-size: 10vw;
+
+
+    }
+
+    .pageTwoTextDiv h3 span {
+        font-size: 10vw;
+    }
+
+    .pageTwoTextDiv p {
+        font-size: 3vw;
+    }
+
+    /* page three */
+
+    .pageThree {
+    
+        height: 80vh;
+    }
+    /* page four */
+
+    .pageFour {
+        margin-bottom: 30px;
+        height: 280vh;
+    }
+
+ /* page five */
+ .pageFive {
+    height: 40vh;
+}
+.pageFiveInnerRow img{
+    height: 40px;
+    width: 40px;}
+
+}
