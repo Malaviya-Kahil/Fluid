@@ -2,29 +2,34 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-cursor: pointer;
--webkit-tap-highlight-color: transparent;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    font-family: "Syncopate", sans-serif !important;
 }
 
 html,
 body {
     height: 100%;
     width: 100%;
+    background: #000;
 }
-.main{
+
+.main {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     background-color: black;
-    overflow-y: hidden;
+    overflow: hidden;
 }
+
 .left {
     width: 50%;
-   height: 100vh;
-   position: relative;
+    height: 100vh;
+    position: relative;
 }
-img{
+
+img {
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -36,80 +41,94 @@ img{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0 2.5vw ;
+    padding: 0 2.5vw;
 }
-.textOne,.textTwo,
+
+.textOne,
+.textTwo,
 .textThree,
-.textFour{
+.textFour {
     width: 100%;
     overflow: hidden;
 }
-.para{
-    
+
+.para {
+
     display: none;
     overflow: hidden;
 }
-.imgOne,.imgTwo,.imgThree,.imgFour{
+
+.imgOne,
+.imgTwo,
+.imgThree,
+.imgFour {
     height: 0%;
     width: 100%;
     position: absolute;
 
 }
+
 h2 {
     color: white;
-    font-size: 40px;
+    font-size: 3.3vw;
     margin: 10px 10px 10px 0;
     display: inline-block;
     text-transform: capitalize;
     font-family: "Josefin Sans", sans-serif;
     transition: all ease-out 0.3s;
 }
-span{
+
+span {
     color: white;
-    font-size: 40px;
+    font-size: 3.3vw;
     font-weight: 800;
     text-transform: capitalize;
     font-family: "Josefin Sans", sans-serif;
     display: inline-block;
 }
+
 p {
-    color: white;
+    color: rgba(255, 255, 255, 0.498);
     width: 80%;
     padding: 10px 0;
-    font-size: 18px;
- 
+    font-size: 1.2vw;
+    line-height: 1.5;
+    font-weight: 800;
     font-family: "Josefin Sans", sans-serif;
 
 }
 
-.textOne h2{
+.textOne h2 {
     background-image: url(https://i.postimg.cc/j5QHXj4G/Red.jpg);
     background-clip: text;
     color: white;
     background-size: cover;
     background-position: center;
 }
-.textTwo h2{
+
+.textTwo h2 {
     background-image: url(https://i.postimg.cc/Y0w9Dqjw/Green.jpg);
     background-clip: text;
     color: white;
     background-size: cover;
 }
-.textThree h2{
+
+.textThree h2 {
     background-image: url(https://i.postimg.cc/XYfHG26N/Blue.jpg);
     background-clip: text;
     color: white;
     background-size: cover;
     background-position: 10% 10%;
-    
+
 }
-.textFour h2{
+
+.textFour h2 {
     background-image: url(https://i.postimg.cc/ZnHX144Q/yellow.jpg);
     background-clip: text;
     color: white;
     background-size: cover;
-   
+
     background-position: center;
-    
-    
+
+
 }
