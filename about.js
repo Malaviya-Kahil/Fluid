@@ -30,6 +30,20 @@ tl4.to('.textFour span', {
 })
 
 
+const lenis = new Lenis()
+
+lenis.on('scroll', (e) => {
+   console.log(e)
+})
+
+lenis.on('scroll', ScrollTrigger.update)
+
+gsap.ticker.add((time) => {
+   lenis.raf(time * 1000)
+})
+
+gsap.ticker.lagSmoothing(0)
+
 
 document.querySelector('.textOne h2').addEventListener('click', function () {
   document.querySelector('.textFour h2').style.color='#ffffff'
